@@ -1,0 +1,62 @@
+:root {
+	--base-color:#003B99;
+}
+
+ul {
+	list-style:none;
+}
+
+
+header {
+	height: auto;
+	background-color: rgba(88,182,210,0.6);
+}
+
+header h1{
+	padding-top:15px;
+	padding-bottom:15px;
+	margin-left: 2px;
+	font-family:"游ゴシック";
+	font-size:2em;
+	text-align:center;
+}
+
+
+header h1 a {
+	text-decoration: none;
+	color: var(--base-color);
+}
+
+section {
+	padding: 0 10px 0 10px;
+  display: flex;
+}
+
+.au_img {
+	width:10%;
+	padding-top: 10px;
+}
+
+img {
+	width: 80px;
+	height: 80px;
+}
+
+.au_text {
+	width: 90%;
+	font-family:"游ゴシック";
+	font-weight: normal;
+	text-align: left;	
+	padding: 10px 10px 0 15px;
+	vertical-align: top;
+	line-height: 200%;
+}
+
+
+
+@media screen and (min-width: 768px) {
+    #wrapper {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
